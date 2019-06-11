@@ -12,16 +12,22 @@
 
   <body>
     <section class="container">
+<!--- STATUS BAR ---->
+      <nav>
+        <div class="status_bar">
+          <img src="images/statusbar.svg" alt="status bar">
+        </div>
+      </nav>
 <!--- NAV BAR ---->
       <nav class="navtop">
         <div class="menu">
-          <img src="/images/menu.svg" alt="menu">
+          <img src="images/menu.svg" alt="menu">
         </div>
         <div class="street">
             <h1>Washington & State</h1>
         </div>
         <div class="options">
-          <img src="/images/options.svg" alt="options">
+          <img src="images/options.svg" alt="options">
         </div>
 
       </nav>
@@ -32,138 +38,161 @@
 <!--- NAV DRAWER ---->
       <section class="drawer">
         <div class="pullbar">
-          <img src="/images/rectangle.png" alt="rectangle">
+          <img src="images/rectangle.png" alt="rectangle">
           <!--p>—</p -->
 
         </div>
 <!--- BUS LIST ---->
-        <div class="bus_list">
-          <div class="bus">
-            <div class="bus_number_box">
-            <div class="bus_number">
+        <ul class="bus_list"> <!--- bus list ---->
+          <li class="bus"><!--- bus ---->
+            <ul class="new">
+            <li class="bus_number">
               <h2>60</h2>
-            </div>
-            </div>
-            <div class="bus_detail">
+            </li>
+            <li class="bus_detail">
               <h3>Randolph/Harbor Dr</h3>
-              <h5>Eastbound | <span class="status">on time</span></h5>
-            </div>
-            <div class="bus_schedule">
-              <h4>every <br> 20 mins</h4>
+              <h5>Eastbound | <span class="status">every 20 mins</span></h5>
+            </li>
+            <li class="bus_schedule">
+              <h4>3<br>min</h4>
+            </li>
+            </ul>
+          </li> <!--- bus ---->
 
-            </div>
-          </div>
-          <div class="bus">
-            <div class="bus_number">
+
+          <li class="bus"><!--- bus ---->
+            <ul class="new">
+            <li class="bus_number">
               <h2>124</h2>
-            </div>
-            <div class="bus_detail">
+            </li>
+            <li class="bus_detail">
               <h3>Navy Pier</h3>
-              <h5>Eastbound | <span class="status">on time</span></h5>
-            </div>
-            <div class="bus_schedule">
-              <h4>every <br> 10 mins</h4>
+              <h5>Eastbound | <span class="status">every 10 mins</span></h5>
+            </li>
+            <li class="bus_schedule">
+              <h4>6<br>min</h4>
+            </li>
+            </ul>
+          </li><!--- bus ---->
 
-            </div>
-          </div>
-          <div class="bus">
-            <div class="bus_number">
+
+          <li class="bus"><!--- bus ---->
+            <ul class="new">
+            <li class="bus_number">
               <h2>151</h2>
-            </div>
-            <div class="bus_detail">
+            </li>
+            <li class="bus_detail">
               <h3>Devon/Clark</h3>
-              <h5>Northbound | <span class="status">on time</span></h5>
-            </div>
-            <div class="bus_schedule">
-              <h4>every <br> 16 mins</h4>
+              <h5>Northbound | <span class="status">every 16 mins</span></h5>
+            </li>
+            <li class="bus_schedule">
+              <h4>8<br>min</h4>
+            </li>
+            </ul>
+          </li><!--- bus ---->
 
-            </div>
-          </div>
-          <div class="bus">
-            <div class="bus_number">
+
+          <li class="bus"> <!--- bus ---->
+            <ul class="new">
+            <li class="bus_number">
               <h2>J14</h2>
-            </div>
-            <div class="bus_detail">
+            </li>
+            <li class="bus_detail">
               <h3>103rd/Stony Island </h3>
-              <h5>Southbound | <span class="status">on time</span></h5>
-            </div>
-            <div class="bus_schedule">
-              <h4>every <br> 15 mins</h4>
+              <h5>Southbound | <span class="status">every 10 mins</span></h5>
+            </li>
+            <li class="bus_schedule">
+              <h4>8<br>min</h4>
+            </li>
+            </ul>
+          </li><!--- bus ---->
 
-            </div>
-          </div>
-          <div class="bus">
-            <div class="bus_number">
+
+          <li class="bus"> <!--- bus ---->
+            <ul class="new">
+            <li class="bus_number">
               <h2>124</h2>
-            </div>
-            <div class="bus_detail">
+            </li>
+            <li class="bus_detail">
               <h3>Navy Pier</h3>
-              <h5>Southbound | <span class="status">on time</span></h5>
-            </div>
-            <div class="bus_schedule">
-              <h4>every <br> 10 mins</h4>
+              <h5>Southbound | <span class="status">every 10 mins</span></h5>
+            </li>
+            <li class="bus_schedule">
+              <h4>9<br>min</h4>
+            </li>
+            </ul>
+          </li><!--- bus ---->
 
-            </div>
-          </div>
-          <div class="bus">
-            <div class="bus_number">
+
+          <li class="bus"> <!--- bus ---->
+            <ul class="new">
+            <li class="bus_number">
               <h2>6x</h2>
-            </div>
-            <div class="bus_detail">
+            </li>
+            <li class="bus_detail">
               <h3>Jackson Park Express </h3>
-              <h5>Reroute | <span class="status">on time</span></h5>
-            </div>
-            <div class="bus_schedule">
+              <h5>Reroute | <span class="status">N/A</span></h5>
+            </li>
+            <li class="bus_schedule">
               <h4 id=oneline>N/A</h4>
+            </li>
+            </ul>
+          </li><!--- bus ---->
 
-            </div>
-          </div>
-          <div class="bus">
-            <div class="bus_number">
+
+          <li class="bus"><!--- bus ---->
+            <ul class="new">
+            <li class="bus_number">
               <h2>4</h2>
-            </div>
-            <div class="bus_detail">
+            </li>
+            <li class="bus_detail">
               <h3>Cottage Grove</h3>
-              <h5><span class="out_of_service">Out of service</span></h5>
-            </div>
-            <div class="bus_schedule">
-              <h4>resumes 12:10am</h4>
+              <h5><span class="status">resumes 6:00am</span></h5>
+            </li>
+            <li class="bus_schedule">
+              <h4 class="out_of_service">Out of service</h4>
+            </li>
+            </ul>
+          </li><!--- bus ---->
 
-            </div>
-          </div>
-          <div class="bus">
-            <div class="bus_number">
+
+          <li class="bus"><!--- bus ---->
+            <ul class="new">
+            <li class="bus_number">
               <h2>20</h2>
-            </div>
-            <div class="bus_detail">
+            </li>
+            <li class="bus_detail">
               <h3>Madison</h3>
-              <h5><span class="out_of_service">Out of service</span></h5>
-            </div>
-            <div class="bus_schedule">
-              <h4>resumes 12:10am</h4>
+              <h5><span class="status">resumes 12:10am</span></h5>
+            </li>
+            <li class="bus_schedule">
+              <h4 class="out_of_service">Out of service</h4>
+            </li>
+          </ul>
+          </li><!--- bus ---->
 
-            </div>
-          </div>
-          <div class="bus">
-            <div class="bus_number">
+
+          <li class="bus"><!--- bus ---->
+            <ul class="new">
+            <li class="bus_number">
               <h2>157</h2>
-            </div>
-            <div class="bus_detail">
+            </li>
+            <li class="bus_detail">
               <h3>Streeterville/Taylor</h3>
-              <h5><span class="out_of_service">Out of service</span></h5>
-            </div>
-            <div class="bus_schedule">
-              <h4>resumes 6:00am</h4>
-
-            </div>
-          </div>
-        </div>
+              <h5><span class="status">resumes 12:10am</span></h5>
+            </li>
+            <li class="bus_schedule">
+              <h4 class="out_of_service">Out of service</h4>
+            </li>
+          </ul>
+          </li><!--- bus ---->
+        </ul> <!--- bus list ---->
       </section>
 <!--- NAV BOTTOM ---->
       <nav class="navbottom">
         <div class="menucontainer">
           <div class="icon">
-              <img src="/images/map.svg" alt="map icon">
+              <img src="images/map.svg" alt="map icon">
 
           </div>
           <div class="description">
@@ -173,7 +202,7 @@
         </div>
         <div class="menucontainer">
           <div class="icon">
-              <img src="/images/bus.svg" alt="bus icon">
+              <img src="images/bus.svg" alt="bus icon">
 
           </div>
           <div class="description">
@@ -183,7 +212,7 @@
         </div>
         <div class="menucontainer">
           <div class="icon">
-              <img src="/images/direction.svg" alt="direction icon">
+              <img src="images/direction.svg" alt="direction icon">
 
           </div>
           <div class="description">
@@ -193,7 +222,7 @@
         </div>
         <div class="menucontainer">
           <div class="icon">
-              <img src="/images/heart.svg" alt="heart icon">
+              <img src="images/heart.svg" alt="heart icon">
 
           </div>
           <div class="description">
@@ -203,7 +232,7 @@
         </div>
         <div class="menucontainer">
           <div class="icon">
-              <img src="/images/settings.svg" alt="settings icon">
+              <img src="images/settings.svg" alt="settings icon">
 
           </div>
           <div class="description">

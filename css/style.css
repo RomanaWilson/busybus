@@ -15,16 +15,24 @@ body {
   max-height: 640px;
   overflow: scroll;
 }
-
+/*** STATUS BAR ***/
+.status_bar{
+  width: 360px;
+  background-color: #00675B;
+  position: fixed;
+}
 /*** NAV BAR ***/
 .navtop{
-  padding-top: 24px;
+  margin-top: 24px;
   width: inherit;
-  height: 80px;
+  height: 56px;
   background-color: #009688;
   position: fixed;
   top: 0;
-}
+  box-shadow: 0 10px 20px
+  rgba(0,0,0,0.19), 0 6px 6px
+  rgba(0,0,0,0.23);
+  }
 
 .menu{
   margin-top: 0;
@@ -60,10 +68,14 @@ h1{
   width: inherit;
   position: fixed;
   top: 80px;
-  height: 320px;
-  background-image: url("../images/map.png")
+  height: 322px;
+  background-image: url("../images/map.png");
+
 }
 /*** BUS LIST ***/
+
+li {list-style-type: none;}
+ul {list-style-type: none;}
 
 .pullbar{
   height: 13px;
