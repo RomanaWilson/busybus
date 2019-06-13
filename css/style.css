@@ -103,7 +103,7 @@ margin-top: 400px;
   overflow-y: scroll;
 }
 .bus{
-  overflow: auto;
+  
   display: block;
   height: 57px;
   width: inherit;
