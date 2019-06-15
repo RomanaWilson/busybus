@@ -71,7 +71,7 @@ h1{
   position: fixed;
   top: 80px;
   height: 322px;
-  background-image: url("../images/map.png");
+  background-image: url("../images/mapbig.svg");
   z-index: -1;
 
 }
