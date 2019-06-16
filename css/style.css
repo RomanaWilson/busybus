@@ -70,7 +70,7 @@ h1{
   width: inherit;
   position: fixed;
   top: 80px;
-  height: 322px;
+  height: 324px;
   background-image: url("../images/mapbig.svg");
   z-index: -1;
 
@@ -92,9 +92,9 @@ ul {list-style-type: none;}
 }
 .drawer{
   border-radius: 5px 5px 0 0;
-margin-top: 400px;
+  margin-top: 400px;
   width: inherit;
-  background-color: #fcfdff;
+  background-color: #ffffff;
   border-radius: 5px 5px 0 0;
 }
 .bus_list{
@@ -146,8 +146,9 @@ h3{
   font-weight: medium;
   color: #2d2d2d;
 }
-h5{
-  font-weight: medium;
+caption{
+  font-size: 1.2em;
+  font-weight: regular;
 }
 .status{
   color: #009688;
@@ -164,13 +165,13 @@ h5{
   margin-right: 16px;
   vertical-align: top;
 }
-h4{
+h5{
   color: #009688;
-  font-size: 1.2em;
+  font-size: 1.4em;
   line-height: 1em;
-  font-weight: medium;
-  padding-top: 16.8px;
-  padding-bottom: 16.8px;
+  font-style: regular;
+  padding-top: 14.6px;
+  padding-bottom: 14.6px;
   text-align: center;
   vertical-align: middle;
 }
@@ -192,31 +193,38 @@ h4{
   padding-right: 8px;
   box-shadow: 0 -5px 5px -5px rgba(0,0,0,0.24);
 }
+.list{
+  padding-top: 7px;
+  height: 50px;
+}
 .menucontainer{
   text-align: center;
   display: inline-block;
-  vertical-align: text-bottom;
+  vertical-align: middle;
   margin-left: 8px;
   margin-right: 8px;
-  padding-left: 10.5px;
-  padding-right: 10.5px;
-  padding-top: 1px;
-  height: 53px;
   width: 50px;
-  vertical-align: baseline;
 }
-.icon{
-  margin-top: 6px;
-  margin-bottom: 2px;
-  vertical-align: middle;
-  max-width: 24px;
+
+figure {
+  align-items: center;
+  vertical-align: center;
+  max-width: 50px;
   min-width: 24px;
   display: inline-block;
 }
-h6{
-  font-size: 0.8em;
-  vertical-align: baseline;
+
+.menu_icon{
+  max-width: 24px;
+  min-width: 24px;
 }
+
+figcaption{
+  font-size: 1.2em;
+  text-align:center;
+  position: relative;
+}
+
 .selected{
   color: #009688;
   fill: #009688;
